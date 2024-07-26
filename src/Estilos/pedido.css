@@ -1,0 +1,86 @@
+.pedido-container {
+  padding: 20px;
+  background-color: #f9f9f9;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  max-width: 1920px;
+  margin: 0 auto;
+}
+
+h1, h2 {
+  text-align: center;
+  margin-bottom: 20px;
+  color: #277c86;
+}
+
+.flex-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 20px;
+}
+
+.flex-container .form-group {
+  display: flex;
+  align-items: center;
+  margin-right: 20px;
+}
+
+.flex-container .form-group label {
+  margin-right: 10px;
+}
+
+.flex-container .form-group input {
+  margin-right: 10px;
+}
+
+.table-container {
+  margin-top: 40px;
+}
+
+.table-container table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+.table-container th, .table-container td {
+  padding: 10px;
+  text-align: left;
+  border-bottom: 1px solid #ddd;
+}
+
+.table-container th {
+  background-color: #277c86;
+  color: #fff;
+}
+
+.table-container tr:nth-child(even) {
+  background-color: #f2f2f2;
+}
+
+.table-container tr:hover {
+  background-color: #ddd;
+}
+
+.table-container .total-row {
+  font-weight: bold;
+}
+
+.button-group {
+  text-align: center;
+  margin-top: 20px;
+}
+
+.button-group button {
+  padding: 10px 20px;
+  background-color: #277c86;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  margin: 0 5px;
+}
+
+.button-group button:hover {
+  background-color: #1d5d65;
+}
